@@ -7,7 +7,7 @@ export default function Header() {
                 <h1>FILMS</h1>
                 <form className='form'>
                     <input type="search" name="q" placeholder="search..."/>
-                    <button type="submit" formAction="http://google.com/search?q"><i class="fas fa-search"></i></button>   
+                    <button type="submit" formAction="http://google.com/search?q"><i className="fas fa-search"></i></button>   
                 </form>
             </div>
             

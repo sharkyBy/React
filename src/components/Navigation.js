@@ -1,19 +1,28 @@
 import React from 'react';
 
-const nav = ['Trending','Top Rated', 'Comming Soon', 'Gentre'];
 
-export default function Navigation() {
 
-    const  navList = nav.map((link) =>
-        <li key={link}>
-            <a href = '#'>{link}</a>
-        </li>
-        );
+function Item(props)  {
+    return (
+       <li>
+        <a href="#s">{props.value}</a>
+    </li> 
+    )    
+}
+
+export default function Navigation(props) {
+    
     return(
         <ul className = 'nav'>
-            {navList}
+            {props.nav.map((item) => 
+                <Item value = {item}
+                      key = {item} />
+           
+            
+            )}
         </ul>
     );
 }
 
 
+ 
