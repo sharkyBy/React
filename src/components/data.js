@@ -84,4 +84,5 @@ export const info = [
   },
 ];
 
-export const navList = ['Trending','Top Rated', 'Comming Soon', 'Gentre'];
+export const navList = ['Trending','Top Rated', 'Comming Soon', 'Genre'];
+export const genre = ['Action', 'Adventure','Animation','Biography', 'Comedy', 'Crime', 'Drama', 'Family',' Fantasy',' History', 'Horror',' Music', 'Musical', 'Mystery', 'Romance', 'Sci-Fi', 'Sport', 'Thriller'];

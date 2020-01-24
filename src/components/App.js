@@ -1,9 +1,9 @@
 import React from 'react';
 import CardList from './CardList';
 import Header from './Header';
-import Navigation from './Navigation';
-import {info} from './data.js'; //получение данных из отдельного файла
-import {navList} from './data.js';
+import {NavList} from './NavList';
+import {info, navList} from './data.js'; //получение данных из отдельного файла
+
 
 
 
@@ -16,10 +16,12 @@ export default function App() {
             </header>
             <main>
                 <div className = 'navigation'>
-                    <Navigation nav = {navList}/>
+                    <NavList nav = {navList}/>
+                    
                 </div>
                 <div className = "card">
-                    <CardList keys = {info}/>    
+                    <CardList keys = {info}/>
+                    
                 </div>  
             </main>
             <footer>
