@@ -147,11 +147,12 @@
 .subMenu {
     
     display:none;
-    flex-flow: row wrap;
+    grid-template-columns: repeat(auto-fill, minmax(100px,1fr));
+    grid-auto-rows:auto;   
     position: absolute;
     top:45px;
-    left: -8px;
-    width: 400px;
+    left: -8px;   
+    max-width:300px;    
     list-style: none;    
     background-color: var(--container-bgd);
     color: var(--nav-color);
@@ -159,15 +160,23 @@
 }
 
 .subMenu > li  {
-   height: 30px;    
-   margin: 10px;
+    display: block;
+    width: auto;
+    height: 30px;
+    margin: 5px;    
+   
+   
 }
 
 .subMenu > li > a  {
+    display: block;
+    width: 100%;
     height: 30px;
     text-decoration: none;
     color: var(--nav-color);
-    padding-top: 5px;
+    /* padding-left: 10px; */
+    
+
 }
 
 /* ************ end Navigation ************* */

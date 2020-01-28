@@ -5,7 +5,7 @@ import {Item} from './NavList';
 export default function Genre (props) {
  
   return (    
-    <ul className='subMenu'>
+    <ul className='subMenu' >
       {props.val.map((item) =>
         <Item value = {item} 
               key = {item} />

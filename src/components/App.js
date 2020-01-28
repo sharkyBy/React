@@ -2,7 +2,7 @@ import React from 'react';
 import CardList from './CardList';
 import Header from './Header';
 import {NavList} from './NavList';
-import {info, navList} from './data.js'; //получение данных из отдельного файла
+import {info, genre, navList} from './data.js'; //получение данных из отдельного файла
 
 
 
@@ -15,8 +15,9 @@ export default function App() {
                <Header /> 
             </header>
             <main>
+               
                 <div className = 'navigation'>
-                    <NavList nav = {navList}/>
+                    <NavList nav = {navList} genre={genre}  />
                     
                 </div>
                 <div className = "card">
