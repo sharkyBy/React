@@ -2,8 +2,8 @@ import React from 'react';
 import CardList from './CardList';
 import Header from './Header';
 import {NavList} from './NavList';
-import {info, genre, navList} from './data.js'; //получение данных из отдельного файла
-
+import {info, genre, navList, classN} from './data.js'; //получение данных из отдельного файла
+import View from './View';
 
 
 
@@ -18,7 +18,7 @@ export default function App() {
                
                 <div className = 'navigation'>
                     <NavList nav = {navList} genre={genre}  />
-                    
+                    <View classN = {classN} />
                 </div>
                 <div className = "card">
                     <CardList keys = {info}/>

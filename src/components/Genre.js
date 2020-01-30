@@ -1,5 +1,5 @@
 import  React from 'react';
-import {Item} from './NavList';
+import Item from './Item';
 
 
 export default function Genre (props) {

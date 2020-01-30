@@ -86,3 +86,4 @@ export const info = [
 
 export const navList = ['Trending','Top Rated', 'Comming Soon', 'Genre'];
 export const genre = ['Action', 'Adventure','Animation','Biography', 'Comedy', 'Crime', 'Drama', 'Family',' Fantasy',' History', 'Horror',' Music', 'Musical', 'Mystery', 'Romance', 'Sci-Fi', 'Sport', 'Thriller'];
+export const classN = ['view_four', 'view_two']
